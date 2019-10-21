@@ -1,0 +1,68 @@
+@import url('responsive_admin.css');
+
+@media only screen and (min-width: 1200px) {
+ .container { width: 900px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+.management_heading h3{min-height: 50px;}
+}
+
+@media only screen and (max-width: 1100px) {	
+.nav_center {width: auto !important; text-align: left !important; }
+.nav_center .navbar-nav{ float: left }
+.m_main { margin: 130px auto !important;}
+.inner_cnt_align.p_100{ padding: 50px !important }
+}
+
+@media only screen and (max-width: 900px) {
+.top_strip .nav_center .navbar-nav>li>a{ margin: 0 0 0 10px !important }
+.nav_right .navbar-right a {padding-left: 15px !important; padding-right: 15px !important;}
+}
+
+@media only screen and (max-width: 767px) {
+.nav_center li , .nav_center{display: inline-block !important; width: 100% !important}
+.nav_right .nav, .nav_center .nav{ margin-right: 0; margin-left:0 }
+.top_strip .nav_center .navbar-nav > li > a{margin-left:0 !important; padding: 10px 0 !important }
+.navbar-toggle {margin-top: 18px !important;}
+.m_main { margin: 100px auto !important;}
+.col-2 th, .col-2 td{ font-size: 13px  }
+.col-2 th{ width: 150px !important; box-sizing: border-box;}
+.col-2 td{ word-break: all; word-wrap:break-word; }
+.m_main_2 {margin: 50px auto !important;}
+.padding_50{ padding: 30px !important }
+.form-information {padding: 50px !important;}
+.container_border{padding: 30px 10px !important }
+.nav_center{ margin-left: 0 !important;}
+.nav_right .dropdown-menu {left: 0 !important;}
+.nav_right{right: 50px !important; top: 26px !important; }
+.navbar-brand { padding: 15px !important}
+.role .w_50{ width: 100%; height: auto !important; float: none; margin-bottom: 50px }
+.role .inner_cnt_align{left: 0% !important; padding: 100px !important; top: 0% !important; position: relative !important; transform: translate(0,0) !important; -webkit-transform: translate(0,0) !important; -o-transform: translate(0,0) !important; -moz-transform: translate(0,0) !important;}
+.role .fix_profile_img {left: 0 !important; margin:50px auto -35px !important; position: relative !important; display: block; } 
+.role .inner_cnt_align{ padding: 20px !important }
+.login, .role{ overflow-y: auto; }
+}
+
+@media only screen and (max-width: 500px) {
+.login_area{ width: 80% !important;}
+.work_cnt, .work_btn{ float: none !important; text-align: left !important }
+.work_btn a{ margin-top: 10px !important }
+.main_heading{font-size: 30px !important; }
+.sub_heading{font-size: 22px !important; }
+.classify_catagory {margin-top: 6px !important}
+.team_member{ margin-top:0 !important}
+.management_heading h3{min-height: 50px;}
+.main_heading_2 {font-size: 25px;}
+body{ font-size: 14px !important}
+.pro_img{margin: 20px auto }
+.search_area .btn span{ display: none }
+.heading_search .col-xs-6{ width: 100% }
+.search_area{ margin-top: 20px !important }
+.search_area .form-control{ opacity: 1 !important }
+}
+
+@media only screen and (max-width: 450px) {
+.content_area .col-sm-3.col-xs-6, .inner_cnt_align .col-xs-4, .content_area .col-sm-4.col-xs-6{ width: 100% !important }
+}	
+

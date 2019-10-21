@@ -1,0 +1,21 @@
+/*IE10 and IE11 open */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.im-modal table{  }
+	table.dataTable{}
+}
+/*IE10 and IE11 close */
+
+
+@media all and (-ms-high-contrast:none)
+     {
+     .body { } /* IE10 */
+     *::-ms-backdrop, .body { color: red } /* IE11 */
+}
+
+
+.ie .im-modal table{ height: auto; }
+.ie .im-modal table tbody{ position: relative; height: auto !important; }
+.ie .btn.btn-sm .svg{ min-height: 14px }
+.ie input[type="file"]{ border: none !important; background: none !important; box-shadow: none; width: 100% }
+.ie .check .svg {margin-top: 3px; width: 43px; line-height: 43px; display: inline-block; }
+.ie .chosen-container{ width: 100% !important }
